@@ -104,6 +104,11 @@ let data = {
         label: 'Yii Data',
         url: 'https://github.com/yiisoft/data',
     },
+    'data-db': {
+        tag: '#yiisoftDataDb',
+        label: 'Yii Data DB',
+        url: 'https://github.com/yiisoft/data-db',
+    },
     'data-response': {
         tag: '#yiisoftDataResponse',
         label: 'Yii Data Response',
@@ -341,7 +346,7 @@ let data = {
     },
     'rbac': {
         tag: '#yiisoftRbac',
-        label: 'Yii Role-Based Access Control Library',
+        label: 'Yii Role-Based Access Control',
         url: 'https://github.com/yiisoft/rbac',
     },
     'rbac-db': {
@@ -523,6 +528,11 @@ let data = {
         tag: '#yiisoftYiiDebugViewer',
         label: 'Yii Debug Viewer',
         url: 'https://github.com/yiisoft/yii-debug-viewer',
+    },
+    'yii-dev-tool': {
+        tag: '#yiisoftYiiDevTool',
+        label: 'Yii Development Tool',
+        url: 'https://github.com/yiisoft/yii-dev-tool',
     },
     'yii-docker': {
         tag: '#yiisoftYiiDocker',
