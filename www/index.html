@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yii Chronicles Helper</title>
+    <link rel="stylesheet" href="assets/main.css">
+</head>
+<body>
+<section class="section" id="App">
+    <div class="container">
+        <h1 class="title">
+            Yii Chronicles Helper
+        </h1>
+        <div class="field">
+            <div class="label">Тип сообщения</div>
+            <div class="control">
+                <label class="radio" v-for="type in types">
+                    <input type="radio" v-model="selectedType" :value="type.id">
+                    {{ type.icon }}
+                    {{ type.label }}
+                </label>
+            </div>
+        </div>
+        <div class="field">
+            <div class="label">Пакеты</div>
+            <div class="control">
+                <vue-select
+                    v-model="selectedPackages"
+                    :options="packagesOptions"
+                    label="tag"
+                    :multiple="true"
+                >
+                    <template #no-options>
+                        <div v-show="!hasNextPage">
+                            Ничего не найдено
+                        </div>
+                    </template>
+                </vue-select>
+            </div>
+        </div>
+        <div class="field">
+            <div class="label">Сообщение</div>
+            <div class="control">
+                <textarea v-html="message" class="textarea" rows="10" ref="message" readonly></textarea>
+            </div>
+        </div>
+        <div class="field">
+            <div class="control">
+                <button class="button is-primary" @click="copy">Скопировать</button>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="assets/main.js"></script>
+</body>
+</html>
