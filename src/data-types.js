@@ -32,6 +32,11 @@ let data = {
         label: 'Новости',
         tagsAfter: '#Новости',
     },
+    'recipes': {
+        icon: '🍕',
+        label: 'Рецепты',
+        tagsAfter: '#Рецепты',
+    },
 };
 
 for (const id in data) {
