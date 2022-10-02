@@ -351,7 +351,7 @@ let data = {
     },
     'rbac-db': {
         tag: '#yiisoftRbacDb',
-        label: '',
+        label: 'Yii RBAC Database',
         url: 'https://github.com/yiisoft/rbac-db',
     },
     'rbac-php': {
@@ -371,7 +371,7 @@ let data = {
     },
     'request-model': {
         tag: '#yiisoftRequestModel',
-        label: '',
+        label: 'Yii Request Model',
         url: 'https://github.com/yiisoft/request-model',
     },
     'requirements': {
@@ -466,7 +466,7 @@ let data = {
     },
     'view-twig': {
         tag: '#yiisoftViewTwig',
-        label: '',
+        label: 'Yii View Twig Renderer',
         url: 'https://github.com/yiisoft/view-twig',
     },
     'widget': {
