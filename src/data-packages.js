@@ -4,6 +4,11 @@ let data = {
         label: 'Yii Access',
         url: 'https://github.com/yiisoft/access',
     },
+    'actions': {
+        tag: '#yiisoftActions',
+        label: 'Yii GitHub Actions',
+        url: 'https://github.com/yiisoft/actions/',
+    },
     'active-record': {
         tag: '#yiisoftActiveRecord',
         label: 'Yii Active Record',
@@ -79,6 +84,11 @@ let data = {
         label: 'Yii Cache WinCache Handler',
         url: 'https://github.com/yiisoft/cache-wincache',
     },
+    'classifier': {
+        tag: '#yiisoftClassifier',
+        label: 'Yii Classifier',
+        url: 'https://github.com/yiisoft/classifier/',
+    },
     'composer-config-plugin': {
         tag: '#yiisoftComposerConfigPlugin',
         label: 'Composer Config Plugin',
@@ -123,6 +133,11 @@ let data = {
         tag: '#yiisoftDbMariadb',
         label: 'Yii DB MariaDb Extension',
         url: 'https://github.com/yiisoft/db-mariadb',
+    },
+    'db-mongodb': {
+        tag: '#yiisoftDbMongodb',
+        label: 'Yii DB MongoDB Extension',
+        url: 'https://github.com/yiisoft/db-mongodb/',
     },
     'db-mssql': {
         tag: '#yiisoftDbMssql',
@@ -349,9 +364,14 @@ let data = {
         label: 'Yii Role-Based Access Control',
         url: 'https://github.com/yiisoft/rbac',
     },
+    'rbac-rules-container': {
+        tag: '#yiisoftRbacRulesContainer',
+        label: 'Yii RBAC Rules Container',
+        url: 'https://github.com/yiisoft/rbac-rules-container/',
+    },
     'rbac-db': {
         tag: '#yiisoftRbacDb',
-        label: '',
+        label: 'Yii RBAC Database',
         url: 'https://github.com/yiisoft/rbac-db',
     },
     'rbac-php': {
@@ -359,10 +379,10 @@ let data = {
         label: 'Yii RBAC PHP File Storage',
         url: 'https://github.com/yiisoft/rbac-php',
     },
-    'rbac-spiral-db': {
-        tag: '#yiisoftRbacSpiralDb',
-        label: 'Yii RBAC Spiral Database Storage',
-        url: 'https://github.com/yiisoft/rbac-spiral-db',
+    'rbac-cycle-db': {
+        tag: '#yiisoftRbacCycleDb',
+        label: 'Yii RBAC Cycle Database Storage',
+        url: 'https://github.com/yiisoft/rbac-cycle-db',
     },
     'request-body-parser': {
         tag: '#yiisoftRequestBodyParser',
@@ -371,7 +391,7 @@ let data = {
     },
     'request-model': {
         tag: '#yiisoftRequestModel',
-        label: '',
+        label: 'Yii Request Model',
         url: 'https://github.com/yiisoft/request-model',
     },
     'requirements': {
@@ -466,7 +486,7 @@ let data = {
     },
     'view-twig': {
         tag: '#yiisoftViewTwig',
-        label: '',
+        label: 'Yii View Twig Renderer',
         url: 'https://github.com/yiisoft/view-twig',
     },
     'widget': {
