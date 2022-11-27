@@ -29,6 +29,11 @@ let data = {
         label: 'Шаблон API-приложения',
         url: 'https://github.com/yiisoft/app-api',
     },
+    'app-console': {
+        tag: '#yiisoftAppConsole',
+        label: 'Шаблон консольного приложения',
+        url: 'https://github.com/yiisoft/app-console',
+    },
     'arrays': {
         tag: '#yiisoftArrays',
         label: 'Yii Arrays',
@@ -643,6 +648,11 @@ let data = {
         tag: '#yiisoftYiiSwagger',
         label: 'Yii Swagger',
         url: 'https://github.com/yiisoft/yii-swagger',
+    },
+    'yii-testing': {
+        tag: '#yiisoftYiiTesting',
+        label: 'Yii Testing',
+        url: 'https://github.com/yiisoft/yii-testing',
     },
     'yii-view': {
         tag: '#yiisoftYiiView',
